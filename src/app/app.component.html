@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  City List
+</mat-toolbar>
+
+<mat-sidenav-container class="app-container">
+  <mat-sidenav mode='side' [(opened)]="opened" disableClose>
+    <app-city-navigation></app-city-navigation>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

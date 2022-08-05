@@ -1,0 +1,23 @@
+.forecast-days-container{
+    background-color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.card-layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mat-card{
+    width: 10rem;
+    height: auto;
+    border-radius: 0;
+    border: 1px solid #000;
+    text-align: center;
+    margin-right: 2rem;
+    margin-bottom: 20px;
+}

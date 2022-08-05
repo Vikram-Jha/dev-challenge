@@ -1,0 +1,11 @@
+<div class="forecast-days-container" >
+    <ng-container *ngIf = "forcastDaysData$ | async as datas">
+    <h1 class="heading">Forecast</h1>
+    <div class="card-layout">
+        <mat-card *ngFor="let data of datas.forecast">
+            <h2>{{data.day}}</h2>
+            <h2>{{data.temp}} C</h2>
+        </mat-card>
+    </div>
+    </ng-container>
+</div>

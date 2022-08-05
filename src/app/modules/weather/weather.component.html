@@ -1,0 +1,5 @@
+<div *ngIf="cityConditions$">
+  <app-current-city [cityName$]="cityName$"></app-current-city>
+  <app-current-conditions [cityConditions$]="cityConditions$"></app-current-conditions>
+  <app-forcast-days [forcastDaysData$]="forcastDaysData$"></app-forcast-days>
+</div>

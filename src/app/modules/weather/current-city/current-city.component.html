@@ -1,0 +1,3 @@
+<div class="current-conditions-container" *ngIf="cityName$ | async as city">
+    <h1 id="header">Current Conditions for {{city?.name}}</h1>    
+  </div>

@@ -1,0 +1,16 @@
+<div class="current-conditions-container" >
+  <!-- <h3 id="tempLabel">Temperature: <h3><span *ngIf="cityConditions$ | async as cityConditions">{{cityConditions?.temp}} F </span></h3></h3>
+  <h3 id="windLabel">Wind Speed: <h3><span *ngIf="cityConditions$ | async as cityConditions">{{cityConditions?.windSpeed}} km/hr</span></h3></h3> -->
+<div class="section">
+  <div class="row">
+    <div class="text-lable"><h3 id="tempLabel">Temperature: </h3></div>
+    <div class="temp"><h3><span *ngIf="cityConditions$ | async as cityConditions">{{cityConditions?.temp}} F </span></h3></div>
+  </div>
+
+  <div class="row">
+    <div class="text-lable"><h3 id="windLabel">Wind Speed: </h3></div>
+    <div class="wind"><h3><span *ngIf="cityConditions$ | async as cityConditions">{{cityConditions?.windSpeed}} km/hr</span></h3></div>
+  </div>
+</div>
+
+</div>

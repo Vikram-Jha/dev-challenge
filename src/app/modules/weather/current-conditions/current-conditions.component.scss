@@ -1,0 +1,31 @@
+.current-conditions-container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  h3{
+    width: 100px;
+    display: inline;
+  }
+}
+.section{
+  width: 50%;
+}
+.row{
+  display: flex;
+  div{
+    width: 50%;
+  }
+  .text-lable{
+    text-align: right;
+    margin-right: 8px;
+  }
+}
+
